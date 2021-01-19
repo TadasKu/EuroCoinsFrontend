@@ -1,0 +1,83 @@
+{
+  "_from": "world-map-vue@^0.2.1",
+  "_id": "world-map-vue@0.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-DbDw9eDMk/kau1lo05x3+UOGLzmX2ZlDrX/G9OfpkhmMIQerBokv43Y9/vijlEJwYgdh4fRUwGRLtmCOEkJURw==",
+  "_location": "/world-map-vue",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "world-map-vue@^0.2.1",
+    "name": "world-map-vue",
+    "escapedName": "world-map-vue",
+    "rawSpec": "^0.2.1",
+    "saveSpec": null,
+    "fetchSpec": "^0.2.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/world-map-vue/-/world-map-vue-0.2.1.tgz",
+  "_shasum": "476b7353f0bfa4cde88bb1984e4ad90596df7b38",
+  "_spec": "world-map-vue@^0.2.1",
+  "_where": "C:\\Mokslai\\Savarankiski\\EuroCollection\\eurocollectionfrontend",
+  "author": {
+    "name": "Fran Grau"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chroma-js": "^2.1.0",
+    "vue": "^2.6.11"
+  },
+  "deprecated": false,
+  "description": "A Vue JS component for displaying a world map with colored countries and overlay information. Forked from Ghrehh and Mrityunjay Saxena.",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.4.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "css-loader": "^3.5.3",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-import-resolver-webpack": "^0.12.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "jest": "^25.4.0",
+    "npm-check-updates": "^4.1.2",
+    "vue-jest": "^3.0.5",
+    "vue-loader": "^15.9.1"
+  },
+  "keywords": [
+    "vue",
+    "world map",
+    "colors",
+    "individual",
+    "independent",
+    "map",
+    "hover",
+    "click",
+    "overlay"
+  ],
+  "license": "MIT",
+  "main": "src/App.vue",
+  "name": "world-map-vue",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src test",
+    "test": "jest --config jest.conf.js",
+    "test:watch": "npm run test -- --watch",
+    "upgrade-deps": "ncu -u --packageFile package.json"
+  },
+  "version": "0.2.1"
+}

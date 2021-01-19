@@ -1,0 +1,26 @@
+var Iso = new Map();
+Iso['Andorra'] = 'AD';
+Iso['Austria'] = 'AT';
+Iso['Belgium'] = 'BE';
+Iso['Cyprus'] = 'CY';
+Iso['Estonia'] = 'EE';
+Iso['Finland'] = 'FI';
+Iso['France'] = 'FR';
+Iso['Germany'] = 'DE';
+Iso['Greece'] = 'GR';
+Iso['Ireland'] = 'IE';
+Iso['Italy'] = 'IT';
+Iso['Latvia'] = 'LV';
+Iso['Lithuania'] = 'LT';
+Iso['Luxemburg'] = 'LU';
+Iso['Malta'] = 'MT';
+Iso['Monaco'] = 'MC';
+Iso['Netherlands'] = 'NL';
+Iso['Portugal'] = 'PT';
+Iso['San Marino'] = 'SM';
+Iso['Slovakia'] = 'SK';
+Iso['Slovenia'] = 'SI';
+Iso['Spain'] = 'ES';
+Iso['Vatican city'] = 'VA';
+
+export default Iso;
